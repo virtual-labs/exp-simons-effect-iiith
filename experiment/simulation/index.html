@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<html>
+
+<head>
+    <title>Simon Task</title>
+     <link rel="stylesheet" href="simon.css">
+</head>
+
+<body>  
+    <center>
+        <div>
+            <p style = "font-family:Times New Roman">
+                <h1><center>Welcome to Simon Task!</center></h1>
+                <h2>Correct Count = <span id = "count"></p></h2>   
+            </p>
+            <canvas id="experiment" width="800px" height="500px"></canvas>
+        </div>
+    </center>
+
+    <img src="instruction.png" style= "display:none" name = "canvas" id ="pic">
+    
+    <style></style>
+    <script src="main_simon.js"></script>
+    <script>
+        window.onload = main();
+    </script>
+    
 </body>
+
 </html>
