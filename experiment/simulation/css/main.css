@@ -1,1 +1,8 @@
-/* You CSS goes in here */
+body {
+	background-color: grey;
+	color: white;
+}
+
+#experiment {
+    border: 2px solid black;
+}
