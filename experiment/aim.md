@@ -1,1 +1,2 @@
-### Aim of the experiment
+### Aim of the Experiment
+To learn about Simons Effect

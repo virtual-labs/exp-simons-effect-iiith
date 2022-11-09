@@ -1,7 +1,7 @@
 var items = ["LEFT", "RIGHT"];
 var item,x;
-var xs = [100, 700];
-var trials = 2;
+var xs = [100, 984];
+var trials = 5;
 var trialnum = 0;
 var correctcount = 0;
 var start_exp=0;
@@ -36,17 +36,21 @@ function writeText(text, color = "white") {
 }
 
 function endExperiment() {
+    writeText("Thankyou!");
+}    
+
+function endExperiment1() {
     clearCanvas();
-    window.canvas = document.getElementById("experiment");
+    writeText("Thankyou!");
+    window.canvas = document.getElementById("experiment1");
     window.ctx = window.canvas.getContext("2d");
     window.ctx.textAlign = "center";
     window.ctx.font = "20px sans-serif";
     let times = time.toString();
-    document.getElementById("experiment").innerHTML = times;
+    document.getElementById("experiment1").innerHTML = times;
     ctx.textAlign = "center";
-    ctx.fillStyle = "white";
-    ctx.fillText(times, 400, 250);
-    
+    ctx.fillStyle = "black";
+    ctx.fillText(times, window.canvas.width/2, window.canvas.height/2);
 }    
 
 function displayTrial() {
@@ -56,8 +60,8 @@ function displayTrial() {
         item = getRandom(items);
         x = getRandom(xs);
         ctx.fillStyle = "yellow";
-        ctx.font = "30px Arial";
-        ctx.fillText(item, x, 250);
+        ctx.font = "50px Arial";
+        ctx.fillText(item, x, 316);
         accept_click=1;
     } 
     else {
@@ -66,22 +70,22 @@ function displayTrial() {
 }
 
 document.addEventListener("keydown", function (f) {
-    if (f.key == " " && trialnum == 0) {
+    if (f.key == " " && trialnum == 0 &&  start_exp==0) {
         start_exp=1;
-        displayTrial();
+        setTimeout(displayTrial,2000);
         return;
     }
 
     if (f.key == "r") {
+        location.reload();
         correctcount=0;
         start_exp=0;
         trialnum=0;
-        document.getElementById("count").innerHTML = correctcount;
-        main();
+        clearCanvas();   
         return;
     }
     
-    if(start_exp==1 &&accept_click==1 && trialnum<trials){
+    if(start_exp==1 && accept_click==1 && trialnum<trials){
         accept_click=0;
         endTime = Date.now();
         var timetaken = endTime - startTime;
@@ -98,9 +102,14 @@ document.addEventListener("keydown", function (f) {
                 return;
             }
         }
-        
         setTimeout(displayTrial, 2000);
         trialnum++;
+        if(f.key !="a" && f.key !="l"){
+            trialnum--;
+            writeText("Wrong Key press", color = "#FF0000");
+            console.log("not accepted")
+            return;
+        }
         writeText("Wrong", color = "#FF0000");
     }
 });
@@ -114,10 +123,7 @@ function setup() {
 }
 
 function instructions() {
-    var c = document.getElementById("experiment");
-    var ctx = c.getContext("2d");
-    var img = document.getElementById("pic");
-    ctx.drawImage(img, 0, 0, 800, 500);
+    writeText("Press space to start the experiment");
 }
     
 function main() {
