@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following design you think is the most appropriate control design for volume control, and why? You can choose more than one option, and explain your choices.",
+      "question": "Which of the following design you think is the most appropriate control design for volume control?",
       "answers": {
         "a": "<img src = 'images/q1a.jpg'>",
         "b": "<img src = 'images/q1b.jpg'>",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following two designs is better and why?",
+      "question": "Which of the following two designs is better from Simon Effect?",
       "answers": {
         "a": "<img src = 'images/q2a.jpg'>",
         "b": "<img src = 'images/q2b.jpg'>",
