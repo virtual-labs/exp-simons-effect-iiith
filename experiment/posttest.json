@@ -4,10 +4,10 @@
     {
       "question": "Which of the following design you think is the most appropriate control design for volume control, and why? You can choose more than one option, and explain your choices.",
       "answers": {
-        "a": "<img src = 'images/q1a.png'>",
-        "b": "<img src = 'images/q1b.png'>",
-        "c": "<img src = 'images/q1c.png'>",
-        "d": "<img src = 'images/q1d.png'>"
+        "a": "<img src = 'images/q1a.jpg'>",
+        "b": "<img src = 'images/q1b.jpg'>",
+        "c": "<img src = 'images/q1c.jpg'>",
+        "d": "<img src = 'images/q1d.jpg'>"
       },
       "explanations": {
         "a": "",
@@ -38,8 +38,8 @@
     {
       "question": "Which of the following two designs is better and why?",
       "answers": {
-        "a": "<img src = 'images/q2a.png'>",
-        "b": "<img src = 'images/q2b.png'>",
+        "a": "<img src = 'images/q2a.jpg'>",
+        "b": "<img src = 'images/q2b.jpg'>",
         "c": "Both A and B",
         "d": "None of the above"
       },
