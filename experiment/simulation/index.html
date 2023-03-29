@@ -2,69 +2,63 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Simon Task</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
-	<link rel="stylesheet" href="./css/main.css">
+  <title>Simon Task</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-	<div class="sc">
-		<div class="container">
-			<div class="columns is-centered">
-				<div class="column">
-					<div class="v-collapsible-instruction-container v-instruction-container">
-						<div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Simon Task</div>
-						<div class="v-content" style="text-align: left; padding-left: 10%; padding-right: 10%;">
-							<ul style="list-style: disc;">
-								<li>Words "LEFT" and "RIGHT" will appear randomly on your left or right side of the screen.</li>
-								<li>You are required to respond to "LEFT" with "A" and "RIGHT" with "L" on the keyboard.</li>
-								<li>After completing the experiment, click on results to see time taken(in ms) for each response.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="columns is-centered">
-			<div class="column is-7-desktop is-12-tablet is-12-mobile">
-				<div id="circuit-board">
-					<div id="working-area">
-						<div>
-							<div class="para">
-								<h1>Welcome to Simon Task!</h1>
-								<h2>Correct Count = <span id="count"></h2>
-								<canvas id="experiment" width="1084" height="632"></canvas>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<br></br>
-	<div class="columns is-centered">
-		<div class="column is-7-desktop is-12-tablet is-12-mobile">
-			<div id="circuit-board2">
-				<div id="working-area2">
-					<div>
-						<canvas id="experiment1" width="1084" height="72"></canvas>
-					</div>
-					<div>
-						<button class="v-button" onclick="endExperiment1()" id="buttoncss">Result</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	</div>
-	<script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
-	<script src="./js/main.js"></script>
-	<script>window.onload = main();</script>
+  <div class="sc">
+    <div class="container">
+      <div class="v-collapsible-instruction-container v-instruction-container">
+        <div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Simon Task</div>
+        <div class="v-content">
+          <ul style="list-style: disc;">
+            <li>Words "LEFT" and "RIGHT" will appear randomly on your left or right side of the screen.</li>
+            <li>You are required to respond to "LEFT" with "A" and "RIGHT" with "L" on the keyboard.</li>
+            <li>After completing the experiment, click on results to see time taken(in ms) for each response.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div id="circuit-board">
+        <div id="working-area">
+          <div class="para">
+            <center>
+              <h1>Welcome to Simon Task!</h1>
+            </center>
+            <center>
+              <h2>Correct Count = <span id="count"></h2>
+            </center>
+            <canvas id="experiment" width="800" height="450"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div id="circuit-board2">
+        <div id="working-area2">
+          <canvas id="experiment1" width="850" height="55"></canvas>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="columns is-centered">
+        <button class="v-button" onclick="endExperiment1()">Result</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+  <script src="./js/main.js"></script>
+  <script>window.onload = main();</script>
 </body>
 
 </html>
