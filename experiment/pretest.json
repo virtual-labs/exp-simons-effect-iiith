@@ -17,6 +17,23 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What is the Simon effect?",
+      "answers": {
+        "a": "The automatic processing of stimulus location.",
+        "b": "The influence of irrelevant spatial information on reaction times. ",
+        "c": "The congruency between stimulus and response locations.",
+        "d": "The interference between automatic and controlled processes."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }

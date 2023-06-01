@@ -51,6 +51,23 @@
       },
       "correctAnswer": "b",
       "difficulty": "medium"
+    },
+    {
+      "question": "How does the Simon effect provide insights into cognitive processes?",
+      "answers": {
+        "a": "It reveals the impact of irrelevant spatial information on decision-making.",
+        "b": "It demonstrates the relationship between stimulus identification and response execution.",
+        "c": "It highlights the importance of attentional processes in response selection.",
+        "d": "It measures the capacity of short-term memory."
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "medium"
     }
   ]
 }

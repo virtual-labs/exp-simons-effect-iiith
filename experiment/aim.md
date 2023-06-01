@@ -1,3 +1,3 @@
 ### Aim of the Experiment
-1) The Simon Task is a behavioral measure of interference/conflict resolution. <br>
-2) The Simon task is a well-established experimental paradigm designed to study how different properties of a stimulus might interfere during information processing or decision making.
+The aim of this virtual lab experiment is to investigate the Simon effect and Simon task. The experiment is designed to provide students with a comprehensive understanding of the theory behind the Simon effect and give them an opportunity to conduct the experiment digitally.<br>
+Through this virtual lab experience, students will enhance their knowledge of cognitive processes related to response selection and gain practical skills in conducting the Simon task.
