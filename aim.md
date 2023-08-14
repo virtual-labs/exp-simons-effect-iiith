@@ -1,0 +1,3 @@
+### Aim of the Experiment
+The aim of this virtual lab experiment is to investigate the Simon effect and Simon task. The experiment is designed to provide students with a comprehensive understanding of the theory behind the Simon effect and give them an opportunity to conduct the experiment digitally.<br>
+Through this virtual lab experience, students will enhance their knowledge of cognitive processes related to response selection and gain practical skills in conducting the Simon task.
