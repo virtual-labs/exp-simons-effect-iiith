@@ -45,9 +45,6 @@ text {
   background-color: black;
 }
 
-.container {
-}
-
 .column {
   text-align: center;
 }
@@ -78,6 +75,8 @@ text {
 .v-instruction-container {
   border:.2rem solid #97d23d;
   justify-content: flex-start;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .speed-box{

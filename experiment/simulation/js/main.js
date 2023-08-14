@@ -116,6 +116,19 @@ document.addEventListener("keydown", function (f) {
     }
 });
 
+function resetExperiment() {
+    correctcount = 0;
+    start_exp = 0;
+    trialnum = 0;
+    clearCanvas();
+    time = [];
+    document.getElementById("count").innerHTML = correctcount;
+    instructions();
+}
+
+
+document.getElementById("resetButton").addEventListener("click", resetExperiment);
+
 function setup() {
     window.canvas = document.getElementById("experiment");
     window.ctx = window.canvas.getContext("2d");

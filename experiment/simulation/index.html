@@ -13,16 +13,15 @@
 
 <body>
   <div class="sc">
-    <div class="container">
-      <div class="v-collapsible-instruction-container v-instruction-container">
-        <div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Simon Task</div>
-        <div class="v-content">
-          <ul style="list-style: disc;">
-            <li>Words "LEFT" and "RIGHT" will appear randomly on your left or right side of the screen.</li>
-            <li>You are required to respond to "LEFT" with "A" and "RIGHT" with "L" on the keyboard.</li>
-            <li>After completing the experiment, click on results to see time taken(in ms) for each response.</li>
-          </ul>
-        </div>
+    <div class="v-collapsible-instruction-container v-instruction-container">
+      <div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Simon Task</div>
+      <div class="v-content">
+        <ul style="list-style: disc; text-align: left">
+          <li>Words "LEFT" and "RIGHT" will appear randomly on your left or right side of the screen.</li>
+          <li>You are required to respond to word "LEFT" with key "A" and word "RIGHT" with key "L" on the keyboard
+            irrespective of physical location on the screen.</li>
+          <li>After completing the experiment, click on results to see time taken(in ms) for each response.</li>
+        </ul>
       </div>
     </div>
     <br>
@@ -52,6 +51,7 @@
     <br>
     <div class="container">
       <div class="columns is-centered">
+        <button class="v-button" id="resetButton">Try Again</button>
         <button class="v-button" onclick="endExperiment1()">Result</button>
       </div>
     </div>
