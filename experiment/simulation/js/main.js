@@ -29,7 +29,7 @@ function writeText(text, color = "white") {
     clearCanvas();
     window.ctx.fillStyle = color;
     window.ctx.textAlign = "center";
-    window.ctx.font = "1em sans-serif";
+    window.ctx.font = "2em sans-serif";
     window.ctx.fillText(
         text,
         window.canvas.width / 2,
@@ -47,7 +47,7 @@ function endExperiment1() {
     window.canvas = document.getElementById("experiment1");
     window.ctx = window.canvas.getContext("2d");
     window.ctx.textAlign = "center";
-    window.ctx.font = "1rem sans-serif";
+    window.ctx.font = "2rem sans-serif";
     let times = time.toString();
     document.getElementById("experiment1").innerHTML = times;
     ctx.textAlign = "center";
@@ -133,7 +133,7 @@ function setup() {
     window.canvas = document.getElementById("experiment");
     window.ctx = window.canvas.getContext("2d");
     window.ctx.textAlign = "center";
-    window.ctx.font = "1rem sans-serif";
+    window.ctx.font = "2rem sans-serif";
 
     correctcount = 0;
 }

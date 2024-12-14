@@ -14,28 +14,42 @@
 <body>
   <div class="sc">
     <div class="v-collapsible-instruction-container v-instruction-container">
-      <div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Simon Task</div>
+      <div id="instruction-title" class="v-collapsible is-size-5">Instructions for Performing the Simon Task</div>
       <div class="v-content">
-        <ul style="list-style: disc; text-align: left">
-          <li>Words "LEFT" and "RIGHT" will appear randomly on your left or right side of the screen.</li>
-          <li>You are required to respond to word "LEFT" with key "A" and word "RIGHT" with key "L" on the keyboard
-            irrespective of physical location on the screen.</li>
-          <li>After completing the experiment, click on results to see time taken(in ms) for each response.</li>
+        <ul style="list-style: disc; text-align: left; padding-left: 20px;">
+          <li>The task will present words "LEFT" and "RIGHT" on the screen, either on the left or right side.</li>
+          <li>Your goal is to respond based on the word itself, not its location on the screen:</li>
+          <ul style="list-style: circle; padding-left: 30px;">
+            <li>When you see the word "LEFT," press the "A" key on your keyboard.</li>
+            <li>When you see the word "RIGHT," press the "L" key on your keyboard.</li>
+            <li>Note: The keys are case sensitive and must be <strong>lower case</strong>.</li>
+          </ul>
+          <li>Do not be confused by the location of the word on the screen. For example:</li>
+          <ul style="list-style: circle; padding-left: 30px;">
+            <li>If the word "LEFT" appears on the right side of the screen, press "A".</li>
+            <li>If the word "RIGHT" appears on the left side of the screen, press "L".</li>
+          </ul>
+          <li>Try to respond as quickly and accurately as possible. Your reaction times and accuracy will be recorded.</li>
+          <li>Once the experiment is completed, you can view the results, which will show the time taken (in milliseconds) for each of your responses.</li>
+          <li>Remember, the experiment will include both <strong>congruent</strong> trials (where the word and location match) and <strong>incongruent</strong> trials (where the word and location do not match).</li>
+          <li>Click the <strong>spacebar</strong> to start the experiment.</li>
+          <li>Good luck, and enjoy the experiment!</li>
         </ul>
       </div>
     </div>
     <br>
+    <h2 style="color: red;text-align: center;font-size: 1rem;">Note: Please wait after clicking space. It may take time to start the experiment.</h2>
     <div class="container">
       <div id="circuit-board">
         <div id="working-area">
           <div class="para">
             <center>
-              <h1>Welcome to Simon Task!</h1>
+              <h1 style="font-size: 1.6rem;">Welcome to Simon Task!</h1>
             </center>
             <center>
-              <h2>Correct Count = <span id="count"></h2>
+              <h2 style="font-size: 1.4rem;">Correct Count = <span id="count"></h2>
             </center>
-            <canvas id="experiment" width="800" height="450"></canvas>
+            <canvas id="experiment" width="900" height="550"></canvas>
           </div>
         </div>
       </div>
