@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following design you think is the most appropriate control design for volume control?",
+      "answers": {
+        "a": "<img src = 'images/q1a.jpg'>",
+        "b": "<img src = 'images/q1b.jpg'>",
+        "c": "<img src = 'images/q1c.jpg'>",
+        "d": "<img src = 'images/q1d.jpg'>"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following two designs is better from Simon Effect?",
+      "answers": {
+        "a": "<img src = 'images/q2a.jpg'>",
+        "b": "<img src = 'images/q2b.jpg'>",
+        "c": "Both A and B",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "This design could work but not the best as it may cause confusion as the response location exactly align with the stimulus location.",
+        "b": "Correct! This design exactly aligns between the stimulus location and the response, leading to better performance.",
+        "c": "This option is incorrect as only one of the designs is better based on the Simon Effect.",
+        "d": "This option is incorrect as one of the designs is indeed better."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does the Simon effect provide insights into cognitive processes?",
+      "answers": {
+        "a": "It reveals the impact of irrelevant spatial information on decision-making.",
+        "b": "It demonstrates the relationship between stimulus identification and response execution.",
+        "c": "It highlights the importance of attentional processes in response selection.",
+        "d": "It measures the capacity of short-term memory."
+      },
+      "explanations": {
+        "a": "While the Simon Effect does show how irrelevant spatial information can affect decision-making, the main insight it provides is about how response execution is influenced by conflicting spatial information.",
+        "b": "Correct! The Simon Effect specifically highlights how stimulus location interacts with response execution, especially when there is a conflict between the two, which leads to slower reaction times.",
+        "c": "Attentional processes are involved, but the Simon Effect focuses more on how spatial location influences response execution rather than attention itself.",
+        "d": "The Simon Effect is unrelated to short-term memory. It focuses on how spatial conflict affects response selection and reaction times."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    }
+  ]
+}

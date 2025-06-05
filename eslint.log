@@ -1,0 +1,8 @@
+
+/home/runner/work/exp-simons-effect-iiith/exp-simons-effect-iiith/experiment/simulation/js/main.js
+  101:30  warning  'color' is not defined  no-undef
+  113:36  warning  'color' is not defined  no-undef
+  117:24  warning  'color' is not defined  no-undef
+
+✖ 3 problems (0 errors, 3 warnings)
+
