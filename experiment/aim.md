@@ -1,1 +1,2 @@
-### Aim of the experiment
+### Aim of the Experiment
+This experiment tests the **Simon Effect**, a phenomenon in cognitive psychology where a person’s response time is influenced by the location of a stimulus, even when the location is irrelevant to the task.  The experiment will help students understand how our brains process information, especially when faced with tasks that involve selecting responses. By completing this experiment virtually, students will learn how cognitive processes affect response time and improve their understanding of the Simon Effect using Simon Task.

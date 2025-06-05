@@ -1,1 +1,139 @@
-/* You CSS goes in here */
+text {
+  pointer-events: none;
+}
+
+.para {
+  color: #f0f0f0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  word-wrap: break-word;
+  line-height: 1.5;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.sc {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#experiment1, #experiment, #circuit-board2, #circuit-board {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#working-area2 {
+  border: 2px solid #97d23d;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+#working-area {
+  border: 2px solid #97d23d;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#result {
+  width: 70%;
+  height: 50px;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+}
+
+.column {
+  text-align: center;
+  padding: 20px;
+}
+
+.instructions-box {
+  max-height: 70px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.instructions-box.expand {
+  max-height: 400px;
+  padding: 20px;
+}
+
+.v-instruction-container {
+  border: 2px solid #97d23d;
+  border-radius: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.speed-box {
+  border: 2px solid #333;
+  color: #333;
+  background-color: #000000;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1em;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.speed-box:hover {
+  background-color: #97d23d;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.speed-box:active {
+  transform: translateY(0);
+  background-color: #7bbf2d;
+}
+
+.v-button{
+  margin: 10px;
+}
+
+.v-collapsible:after {
+  content: '\2193'; /* Downward arrow */
+  scale: 2.5;
+  font-weight: bold;
+  color: #ff0000;
+  transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+.v-collapsible-active:after {
+  transform: rotate(180deg); /* Rotate 180 degrees */
+}
+
+body{
+  margin-bottom: 30px;
+}

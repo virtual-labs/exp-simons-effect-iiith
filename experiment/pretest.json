@@ -1,39 +1,56 @@
-{
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+  {
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "Choose the correct statement that describes Simon Effect.",
+        "answers": {
+          "a": "Is a phenomenon in which the tendency to name a color ink in which the word is printed will interfere with the ability to say the name word. ",
+          "b": "Is a phenomenon in which participants respond faster and more accurately when the stimulus and response are on the same side than when both are presented on opposite sides. ",
+          "c": "Is a phenomenon in which participants fail to perceive objects that are not the focus of attention.",
+          "d": "Is a phenomenon that occurs when another person’s behavior provides information about what is true."
+        },
+        "explanations": {
+          "a": "This is the Stroop Effect, not the Simon Effect. It involves interference between the color of the ink and the word itself.",
+          "b": "Correct! This describes the Simon Effect, where reaction times and accuracy are affected by the spatial relationship between stimulus and response.",
+          "c": "This is the definition of inattentional blindness, not the Simon Effect.",
+          "d": "This is a description of the social influence or informational influence, which is not related to the Simon Effect."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "What is a common method to reduce the Simon Effect in tasks?",
+        "answers": {
+          "a": "Training participants to focus on the spatial location of the stimulus.",
+          "b": "Increasing the complexity of the task.",
+          "c": "Practicing the task repeatedly to reduce interference.",
+          "d": "Removing irrelevant spatial information from the task."
+        },
+        "explanations": {
+          "a": "Incorrect. Focusing on spatial location may increase the Simon Effect.",
+          "b": "Incorrect. Increasing task complexity does not reduce the Simon Effect.",
+          "c": "Correct! Repeated practice can help reduce the interference caused by the Simon Effect.",
+          "d": "Incorrect. While this might seem helpful, it is not commonly feasible in real-world tasks."
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": "How can the Simon Effect be used in real-world situations?",
+        "answers": {
+          "a": "To help people respond more quickly when they are distracted by irrelevant information.",
+          "b": "To design user interfaces that minimize errors caused by irrelevant information.",
+          "c": "To reduce the impact of emotional responses on decision-making.",
+          "d": "To improve memory recall by using spatial cues."
+        },
+        "explanations": {
+          "a": "While this option is related to cognitive processing, it doesn’t directly apply the Simon Effect.",
+          "b": "Correct! The Simon Effect can help design interfaces, tasks, and environments where spatial congruence reduces errors and improves reaction time.",
+          "c": "This is incorrect, as the Simon Effect mainly deals with spatial congruence rather than emotional responses.",
+          "d": "This is incorrect. The Simon Effect focuses on spatial congruence and not memory recall or spatial cues for recall."
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
